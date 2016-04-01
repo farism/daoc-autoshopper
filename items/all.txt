@@ -8,6 +8,7 @@ arcane weapon shard
 astral hauberk of the favored
 astral torporific leggings
 astral vest of purification
+belt of heavenly
 blade illusions
 blade of illusions
 bracelet of eternal retribution
@@ -17,13 +18,18 @@ bracer of snow
 cache of reforming energy
 celerity
 curative sash of the vigilant
+doppelganger arcane mace
 doppelganger arcane myth
-doppelganger bracer
+doppelganger bracelet
 doppelganger furtive myth
 dragon scale cache
 dragonseye
 ensorcelled mystic
+essence of omni
+essence of tenacity
+furtive myth
 galvorne
+gem of the harbinger
 giant blood
 greater focal mythirian
 greater mythirian of health
@@ -31,13 +37,13 @@ greater mythirian of power
 infused armband
 legerdemain
 leviathan ring of defiance
-lich teeth
+lich tooth
 master level
 mercurial bracer
 mercurial ring
 mighty belt of the vigilant
 moment of zen
-necrotic fluid
+necrotic brain fluid
 orb of entropy
 otherworldly adept flame
 otherworldly adept orbital

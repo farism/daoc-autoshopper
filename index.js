@@ -4,45 +4,45 @@ const argv = require('minimist')(process.argv.slice(3));
 
 const LATENCY_MULTIPLIER = 1;
 const SCREENSHOT_KEY = '\\';
-const SCREEN_CENTER_POSITION = [960, 540];
+const SCREEN_CENTER_POSITION = [683, 384];
 const SEARCH_FIELD_POSITION = [100, 55];
-const SEARCH_BUTTON_POSITION = [165, 420];
-const SORT_POSITION = [75, 470];
-const NEXT_PAGE_POSITION = [330, 840];
+const SEARCH_BUTTON_POSITION = [95, 380];
+const SORT_POSITION = [1060, 33];
+const NEXT_PAGE_POSITION = [1310, 405];
 
-robot.oldSleep = robot.sleep;
+const oldSleep = robot.sleep;
 
-robot.latencySleep = function(duration) {
-  return robot.sleep(duration * LATENCY_MULTIPLIER);
+robot.sleep = function(duration, adjustLatency) {
+  return oldSleep(duration * (adjustLatency ? LATENCY_MULTIPLIER : 1));
 }
 
-robot.clear = function(count) {
+function clear(count, robot) {
   for (var i = 0; i < count; i++) {
-    this.press('BACKSPACE');
+    robot.type('BACKSPACE', 2);
   }
-  return this;
 }
 
-robot.interactWithExplorer = function() {
-  return this
+function interactWithExplorer(robot) {
+  robot
     .mouseMove.apply(this, SCREEN_CENTER_POSITION)
     .sleep(500)
     .mouseClick('3')
 }
 
-robot.clearSearchField = function() {
-  return this
+function clearSearchField(robot) {
+  robot
     .mouseMove.apply(this, SEARCH_FIELD_POSITION)
     .sleep(100)
     .mouseClick('1')
     .sleep(500)
     .press('END')
     .sleep(500)
-    .clear(1000)
+   
+  clear(30, robot);
 }
 
-robot.searchForItem = function(str) {
-  return this
+function searchForItem(str, robot) {
+  robot
     .typeString(str)
     .sleep(1000)
     .mouseMove.apply(this, SEARCH_BUTTON_POSITION)
@@ -50,16 +50,16 @@ robot.searchForItem = function(str) {
     .mouseClick('1')
 }
 
-robot.screenshotPages = function() {
+function screenshotPages(robot) {
   for(var i = 0; i < 2; i++) {
-    this
+    robot
       // sort twice for ascending
       .mouseMove.apply(this, SORT_POSITION)
       .sleep(100)
       .mouseClick('1')
-      .latencySleep(1000)
+      .sleep(1000, true)
       .mouseClick('1')
-      .latencySleep(1000)
+      .sleep(1000, true)
 
       // screenshot
       .press(SCREENSHOT_KEY)
@@ -68,10 +68,9 @@ robot.screenshotPages = function() {
       // move to next page and click
       .mouseMove.apply(this, NEXT_PAGE_POSITION)
       .mouseClick('1')
-      .latencySleep(1000)
+      
+      .sleep(1000, true)
   }
-
-  return this;
 }
 
 function readItems() {
@@ -90,15 +89,14 @@ robot.startJar();
 robot.sleep(5000);
 
 items.forEach(function(item) {
-  robot = robot
-  .interactWithExplorer()
-  .sleep(1000)
-  .clearSearchField()
-  .sleep(1000)
-  .searchForItem(item)
-  .sleep(1000)
-  .screenshotPages()
-  .sleep(1000)
+  interactWithExplorer(robot)
+  robot.sleep(1000)
+  clearSearchField(robot)
+  robot.sleep(1000)
+  searchForItem(item, robot)
+  robot.sleep(1000)
+  screenshotPages(robot)
+  robot.sleep(1000)
 });
 
 robot.go(robot.stopJar);

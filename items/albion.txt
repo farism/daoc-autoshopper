@@ -14,5 +14,6 @@ infernal quilted
 pictslayer blade
 pictslayer rapier
 sidi soul
+stonewatch bracer
 vae inimicus ruby
 warshadow bracer
