@@ -8,6 +8,7 @@ arcane weapon shard
 astral hauberk of the favored
 astral torporific leggings
 astral vest of purification
+band of clandestinity
 belt of heavenly
 blade illusions
 blade of illusions
@@ -24,6 +25,7 @@ doppelganger bracelet
 doppelganger furtive myth
 dragon scale cache
 dragonseye
+draught of supremacy
 ensorcelled mystic
 essence of omni
 essence of tenacity
@@ -45,6 +47,7 @@ mighty belt of the vigilant
 moment of zen
 necrotic brain fluid
 orb of entropy
+orb of reforming energies
 otherworldly adept flame
 otherworldly adept orbital
 otherworldly adept ring
@@ -60,7 +63,6 @@ pictslayer buckler
 pictslayer left axe
 pictslayer runic
 pound of flesh
-reforming energies
 remorseless
 ring of the heavens
 searing demon belt
@@ -70,7 +72,6 @@ stardrop
 sudden finality
 sulphurous demon belt
 sulphurous demon necklace
-supremacy
 the recluse
 the wanderer
 zahur's ring
