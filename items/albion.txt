@@ -12,6 +12,7 @@ infernal mail
 infernal plate
 infernal quilted
 pictslayer blade
+pictslayer dirge
 pictslayer rapier
 sidi soul
 stonewatch bracer
