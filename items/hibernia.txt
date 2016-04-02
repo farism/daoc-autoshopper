@@ -3,6 +3,7 @@ carved red spinel
 galladoria root
 opal studded
 pictslayer blade
+pictslayer dirge
 pictslayer rapier
 ring of granite enhancement
 ring of granite shard
