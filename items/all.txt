@@ -17,7 +17,6 @@ bracelet of springtime folly
 bracer of heavenly bodies
 bracer of snow
 cache of reforming energy
-celerity
 curative sash of the vigilant
 doppelganger arcane mace
 doppelganger arcane myth
@@ -25,6 +24,7 @@ doppelganger bracelet
 doppelganger furtive myth
 dragon scale cache
 dragonseye
+draught of celerity
 draught of supremacy
 ensorcelled mystic
 essence of omni
