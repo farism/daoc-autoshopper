@@ -11,6 +11,7 @@ infernal leather
 infernal mail
 infernal plate
 infernal quilted
+lightning etched mail gloves
 pictslayer blade
 pictslayer dirge
 pictslayer rapier
