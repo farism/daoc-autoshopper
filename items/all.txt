@@ -123,3 +123,4 @@ the wanderer,1,1,1
 vae inimicus ruby,1,0,0
 warshadow bracer,2,0,2
 zahur's ring,2,2,2
+zimmeron,1,1,1
