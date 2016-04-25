@@ -28,8 +28,8 @@ cathbadh,0,1,0
 corrupted silksteel labyrinth boots,1,0,0
 curative sash of the vigilant,1,1,1
 cursed crypt bracer,1,0,0
-doppelganger arcane mace,1,1,1
-doppelganger arcane myth,1,1,1
+doppelganger arcane mace,1,1,2
+doppelganger arcane myth,1,1,2
 doppelganger bracelet,2,2,2
 doppelganger furtive myth,2,2,2
 dragon scale cache,1,2,1
