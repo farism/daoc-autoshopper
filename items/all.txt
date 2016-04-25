@@ -14,29 +14,31 @@ astral torporific leggings,1,1,1
 astral vest of purification,1,1,1
 astral voltaic war pick,1,0,0
 band of clandestinity,1,1,1
+band of shadow,1,1,1
 belt of heavenly,1,1,1
+blackened wrap,1,1,1
 blade illusions,2,2,0
 blade of illusions,2,2,0
-bracelet of eternal retribution,1,1,1
+bracelet of eternal retribution,1,1,2
 bracelet of springtime folly,3,3,3
 bracer of heavenly bodies,1,1,1
-bracer of snow,1,1,1
+bracer of snow,1,1,2
 bracer of the fomor,0,1,0
 cache of reforming energy,1,1,2
 carved red spinel,0,1,0
 cathbadh,0,1,0
 corrupted silksteel labyrinth boots,1,0,0
-curative sash of the vigilant,1,1,1
+curative sash of the vigilant,1,1,2
 cursed crypt bracer,1,0,0
 doppelganger arcane mace,1,1,2
 doppelganger arcane myth,1,1,2
 doppelganger bracelet,2,2,2
-doppelganger furtive myth,2,2,2
+doppelganger furtive myth,4,4,4
 dragon scale cache,1,2,1
 dragonscale bracelet,0,0,1
 dragonseye,1,1,1
 dragontooth bracelet,0,0,1
-draught of supremacy,5,5,5
+draught of supremacy,7,7,7
 engrained sikarios foot,0,1,0
 engrained sikarios wreath,0,1,0
 ensorcelled mystic,1,1,1
@@ -60,7 +62,7 @@ infernal mail,2,0,0
 infernal padded,0,0,2
 infernal plate,1,0,0
 infernal quilted,2,0,0
-infernal starkakedja,0,0,2
+infernal starkakedja,0,0,3
 infernal starkaskodd,0,0,2
 infernal starklaedar,0,0,1
 infused armband,1,1,1
