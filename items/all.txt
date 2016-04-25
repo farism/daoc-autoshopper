@@ -5,7 +5,7 @@ anathema,1,1,1
 ancient pure mercury,2,2,2
 arcane commands,1,0,0
 arcane mythirian shard,2,2,2
-arcane sash of the vigilant,2,1,1
+arcane sash of the vigilant,2,3,1
 arcane vigor,1,0,0
 arcane weapon shard,2,2,2
 astral greaves,1,0,0
@@ -54,7 +54,7 @@ giant blood,1,1,1
 glacier ice,0,0,2
 greater focal mythirian,1,1,1
 greater mythirian of health,1,1,2
-greater mythirian of power,1,1,2
+greater mythirian of power,1,2,2
 hallowed,4,0,0
 infernal lamellar,1,0,0
 infernal leather,1,0,0
