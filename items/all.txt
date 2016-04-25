@@ -5,7 +5,7 @@ anathema,1,1,1
 ancient pure mercury,2,2,2
 arcane commands,1,0,0
 arcane mythirian shard,2,2,2
-arcane sash of the vigilant,1,1,1
+arcane sash of the vigilant,2,1,1
 arcane vigor,1,0,0
 arcane weapon shard,2,2,2
 astral greaves,1,0,0
@@ -71,7 +71,7 @@ leviathan ring of defiance,1,1,1
 lich tooth,1,1,1
 lightning etched mail gloves,1,0,0
 lustrous demonic spear,0,0,1
-master level,1,1,2
+master level,2,1,2
 mercurial bracer,1,1,1
 mercurial ring,1,1,1
 mighty belt of the vigilant,1,1,1
@@ -95,7 +95,7 @@ pictslayer blade,0,0,2
 pictslayer blade,2,2,0
 pictslayer buckler,1,1,1
 pictslayer dirge,2,1,0
-pictslayer left axe,0,0,1
+pictslayer left axe,0,0,2
 pictslayer rapier,2,2,0
 pictslayer runic,2,1,1
 pictslayer spear,0,0,1
