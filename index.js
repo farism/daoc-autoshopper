@@ -1,6 +1,7 @@
 var robot = require('kbm-robot');
 const fs = require('fs');
 const argv = require('minimist')(process.argv.slice(3));
+const moment = require('moment');
 
 const LATENCY_MULTIPLIER = 1;
 const SCREENSHOT_KEY = '\\';
@@ -11,9 +12,16 @@ const SORT_POSITION = [1060, 33];
 const NEXT_PAGE_POSITION = [1310, 405];
 
 const oldSleep = robot.sleep;
+const realms = { albion: 1, hibernia: 2, midgard: 3 };
 
 robot.sleep = function(duration, adjustLatency) {
   return oldSleep(duration * (adjustLatency ? LATENCY_MULTIPLIER : 1));
+}
+
+function setScreenshotSeries(realm, date, robot) {
+  robot
+    .typeString(`/sshot ${realm}-${date.format('MM-DD-YY-ha')}`)
+    .press('enter');
 }
 
 function clear(count, robot) {
@@ -37,7 +45,7 @@ function clearSearchField(robot) {
     .sleep(500)
     .press('END')
     .sleep(500)
-   
+
   clear(30, robot);
 }
 
@@ -50,8 +58,16 @@ function searchForItem(str, robot) {
     .mouseClick('1')
 }
 
-function screenshotPages(robot) {
-  for(var i = 0; i < 2; i++) {
+
+function nextPage(robot) {
+  robot
+    .mouseMove.apply(this, NEXT_PAGE_POSITION)
+    .mouseClick('1')
+    .sleep(1000, true)
+}
+
+function screenshotPages(pages, robot) {
+  for(var i = 0; i < pages; i++) {
     robot
       // sort twice for ascending
       .mouseMove.apply(this, SORT_POSITION)
@@ -65,38 +81,37 @@ function screenshotPages(robot) {
       .press(SCREENSHOT_KEY)
       .sleep(1000)
 
+    if (pages > 1 && i < pages.length - 1) {
       // move to next page and click
-      .mouseMove.apply(this, NEXT_PAGE_POSITION)
-      .mouseClick('1')
-      
-      .sleep(1000, true)
+      nextPage(robot);
+    }
   }
 }
 
-function readItems() {
-  return [].reduce.call(arguments, function(acc, path){
-    return acc.concat(fs.readFileSync(path).toString().split('\r\n'));
-  }, []);
-}
-
-const items = readItems(
-  'items/all.txt',
-  `items/${argv.realm}.txt`
-).filter(function(item){ return item });
-
 robot.startJar();
 
-robot.sleep(5000);
+robot.sleep(2500);
+
+setScreenshotSeries(argv.realm, moment(), robot);
+
+robot.sleep(2500);
+
+const items = fs.readFileSync('items/all.txt').toString().split('\r\n');
 
 items.forEach(function(item) {
-  interactWithExplorer(robot)
-  robot.sleep(1000)
-  clearSearchField(robot)
-  robot.sleep(1000)
-  searchForItem(item, robot)
-  robot.sleep(1000)
-  screenshotPages(robot)
-  robot.sleep(1000)
+  const arr = item.split(",");
+  const name = arr[0];
+  const pages = parseInt(arr[realms[argv.realm]], 10);
+  if (pages) {
+    interactWithExplorer(robot)
+    robot.sleep(500)
+    clearSearchField(robot)
+    robot.sleep(100)
+    searchForItem(name, robot)
+    robot.sleep(500)
+    screenshotPages(pages, robot)
+    robot.sleep(500)
+  }
 });
 
 robot.go(robot.stopJar);

@@ -1,76 +1,125 @@
-adept belt of the vigilant
-aidon's slippers
-anathema
-ancient pure mercury
-arcane mythirian shard
-arcane sash of the vigilant
-arcane weapon shard
-astral hauberk of the favored
-astral torporific leggings
-astral vest of purification
-band of clandestinity
-belt of heavenly
-blade illusions
-blade of illusions
-bracelet of eternal retribution
-bracelet of springtime folly
-bracer of heavenly bodies
-bracer of snow
-cache of reforming energy
-curative sash of the vigilant
-doppelganger arcane mace
-doppelganger arcane myth
-doppelganger bracelet
-doppelganger furtive myth
-dragon scale cache
-dragonseye
-draught of celerity
-draught of supremacy
-ensorcelled mystic
-essence of omni
-essence of tenacity
-furtive myth
-galvorne
-gem of the harbinger
-giant blood
-greater focal mythirian
-greater mythirian of health
-greater mythirian of power
-infused armband
-legerdemain
-leviathan ring of defiance
-lich tooth
-master level
-mercurial bracer
-mercurial ring
-mighty belt of the vigilant
-moment of zen
-necrotic brain fluid
-orb of entropy
-orb of reforming
-otherworldly adept flame
-otherworldly adept orbital
-otherworldly adept ring
-otherworldly arcane orbital
-otherworldly arcane ring
-otherworldly curative sunburst
-otherworldly furtive ring
-otherworldly mighty eyes
-otherworldly soul
-otherworldly stalwart
-pearlescent pendant
-pictslayer buckler
-pictslayer runic
-pound of flesh
-remorseless
-ring of the heavens
-searing demon belt
-searing demon necklace
-shimmering satin sash
-stardrop
-sudden finality
-sulphurous demon belt
-sulphurous demon necklace
-the recluse
-the wanderer
-zahur's ring
+abandoned pants of ragnar,0,0,1
+adept belt of the vigilant,2,2,1
+aidon's slippers,1,1,1
+anathema,1,1,1
+ancient pure mercury,2,2,2
+arcane commands,1,0,0
+arcane mythirian shard,1,1,1
+arcane sash of the vigilant,1,1,1
+arcane vigor,1,0,0
+arcane weapon shard,2,2,2
+astral greaves,1,0,0
+astral hauberk of the favored,1,1,1
+astral torporific leggings,1,1,1
+astral vest of purification,1,1,1
+astral voltaic war pick,1,0,0
+band of clandestinity,1,1,1
+belt of heavenly,1,1,1
+blade illusions,2,2,0
+blade of illusions,2,2,0
+bracelet of eternal retribution,1,1,1
+bracelet of springtime folly,3,3,3
+bracer of heavenly bodies,1,1,1
+bracer of snow,1,1,1
+bracer of the fomor,0,1,0
+cache of reforming energy,1,1,2
+carved red spinel,0,1,0
+cathbadh,0,1,0
+corrupted silksteel labyrinth boots,1,0,0
+curative sash of the vigilant,1,1,1
+cursed crypt bracer,1,0,0
+doppelganger arcane mace,1,1,1
+doppelganger arcane myth,1,1,1
+doppelganger bracelet,2,2,2
+doppelganger furtive myth,2,2,2
+dragon scale cache,1,2,1
+dragonscale bracelet,0,0,1
+dragonseye,1,1,1
+dragontooth bracelet,0,0,1
+draught of supremacy,5,5,5
+engrained sikarios foot,0,1,0
+engrained sikarios wreath,0,1,0
+ensorcelled mystic,1,1,1
+eous,1,0,0
+essence of omni,2,2,2
+essence of tenacity,2,2,2
+feallan,0,0,4
+furtive myth,1,1,1
+galladoria root,0,2,0
+galvorne,1,1,1
+gem of the harbinger,5,5,5
+giant blood,1,1,1
+glacier ice,0,0,2
+greater focal mythirian,1,1,1
+greater mythirian of health,1,1,2
+greater mythirian of power,1,1,2
+hallowed,4,0,0
+infernal lamellar,1,0,0
+infernal leather,1,0,0
+infernal mail,2,0,0
+infernal padded,0,0,2
+infernal plate,1,0,0
+infernal quilted,2,0,0
+infernal starkakedja,0,0,2
+infernal starkaskodd,0,0,2
+infernal starklaedar,0,0,1
+infused armband,1,1,1
+legerdemain,3,3,3
+leviathan ring of defiance,1,1,1
+lich tooth,1,1,1
+lightning etched mail gloves,1,0,0
+lustrous demonic spear,0,0,1
+master level,1,1,2
+mercurial bracer,1,1,1
+mercurial ring,1,1,1
+mighty belt of the vigilant,1,1,1
+moment of zen,1,1,1
+necrotic brain fluid,1,1,1
+opal studded,0,1,0
+orb of entropy,1,1,1
+orb of reforming,2,2,2
+otherworldly adept flame,1,1,1
+otherworldly adept orbital,1,1,1
+otherworldly adept ring,1,1,1
+otherworldly arcane orbital,1,1,1
+otherworldly arcane ring,2,2,2
+otherworldly curative sunburst,1,1,1
+otherworldly furtive ring,1,1,1
+otherworldly mighty eyes,1,1,1
+otherworldly soul,2,2,2
+otherworldly stalwart,2,2,2
+pearlescent pendant,1,1,1
+pictslayer blade,0,0,2
+pictslayer blade,2,2,0
+pictslayer buckler,1,1,1
+pictslayer dirge,2,1,0
+pictslayer left axe,0,0,1
+pictslayer rapier,2,2,0
+pictslayer runic,2,1,1
+pictslayer spear,0,0,1
+pound of flesh,1,1,1
+remorseless,1,1,1
+ring of granite enhancement,0,1,1
+ring of granite shard,0,2,2
+ring of tarka'oz,0,1,0
+ring of the azure,0,1,0
+ring of the heavens,1,1,1
+ring of the vaettir,0,0,1
+samhain,0,3,0
+searing demon belt,1,1,1
+searing demon necklace,1,1,1
+shimmering satin sash,1,1,1
+sidi soul,2,0,0
+slime coated,0,0,1
+stardrop,1,2,2
+stonewatch bracer,1,0,0
+sudden finality,1,2,1
+sulphurous demon belt,1,1,2
+sulphurous demon necklace,1,1,2
+tentacle ring,0,0,1
+the one,0,0,1
+the recluse,1,1,1
+the wanderer,1,1,1
+vae inimicus ruby,1,0,0
+warshadow bracer,2,0,2
+zahur's ring,2,2,2
