@@ -81,7 +81,7 @@ function screenshotPages(pages, robot) {
       .press(SCREENSHOT_KEY)
       .sleep(1000)
 
-    if (pages > 1 && i < pages.length - 1) {
+    if (pages > 1 && i < pages - 1) {
       // move to next page and click
       nextPage(robot);
     }
