@@ -81,7 +81,7 @@ function screenshotPages(pages, robot) {
       .press(SCREENSHOT_KEY)
       .sleep(1000)
 
-    if (pages > 1 && i < pages - 1) {
+    if (pages > 0 && i < pages - 1) {
       // move to next page and click
       nextPage(robot);
     }
@@ -104,13 +104,13 @@ items.forEach(function(item) {
   const pages = parseInt(arr[realms[argv.realm]], 10);
   if (pages) {
     interactWithExplorer(robot)
-    robot.sleep(500)
+    robot.sleep(1000)
     clearSearchField(robot)
     robot.sleep(100)
     searchForItem(name, robot)
-    robot.sleep(500)
+    robot.sleep(1000)
     screenshotPages(pages, robot)
-    robot.sleep(500)
+    robot.sleep(1000)
   }
 });
 
