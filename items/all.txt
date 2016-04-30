@@ -36,6 +36,9 @@ doppelganger arcane myth,1,1,2
 doppelganger bracelet,2,2,2
 doppelganger furtive myth,4,4,4
 doppelganger shard,2,2,2
+dragon power mythirian,1,1,1
+dragon strength mythirian,1,1,1
+dragon will mythirian,1,1,1
 dragon scale cache,1,2,1
 dragonscale bracelet,0,0,1
 dragonseye,1,1,1
@@ -55,7 +58,7 @@ galvorne,1,1,1
 gem of the harbinger,5,5,5
 giant blood,1,1,1
 glacier ice,0,0,2
-greater focal mythirian,1,1,1
+greater focal mythirian,1,1,2
 greater mythirian of health,1,1,2
 greater mythirian of power,1,2,2
 hallowed,4,0,0
