@@ -1,6 +1,6 @@
 abandoned pants of ragnar,0,0,1
 adept belt of the vigilant,2,2,1
-aidon's slippers,1,1,1
+aidon's slippers,2,2,2
 anathema,1,1,1
 ancient pure mercury,2,2,2
 arcane commands,1,0,0
