@@ -34,6 +34,7 @@ cursed crypt bracer,1,0,0
 demon queen blood ring,1,1,2
 doppelganger arcane mace,1,1,2
 doppelganger arcane myth,1,1,2
+doppelganger mighty myth,1,1,2
 doppelganger bracelet,2,2,2
 doppelganger furtive myth,4,4,4
 doppelganger shard,2,2,2
@@ -84,6 +85,7 @@ master level,2,1,2
 mercurial bracer,1,1,1
 mercurial ring,1,1,1
 mighty belt of the vigilant,1,1,1
+mighty mythirian shard,2,2,2
 moment of zen,1,1,1
 necrotic brain fluid,1,1,1
 opal studded,0,1,0
