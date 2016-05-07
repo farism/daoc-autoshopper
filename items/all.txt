@@ -60,6 +60,7 @@ galvorne,1,1,1
 gem of the harbinger,5,5,5
 giant blood,1,1,1
 glacier ice,0,0,2
+glass,5,5,5
 greater focal mythirian,1,1,2
 greater mythirian of health,1,1,2
 greater mythirian of power,1,2,2
@@ -118,6 +119,7 @@ ring of tarka'oz,0,1,0
 ring of the azure,0,1,0
 ring of the heavens,1,1,1
 ring of the vaettir,0,0,1
+runed saga etched,0,0,1
 samhain,0,3,0
 searing demon belt,1,1,1
 searing demon necklace,1,1,1
