@@ -111,6 +111,7 @@ pictslayer left axe,0,0,2
 pictslayer rapier,2,2,0
 pictslayer runic,2,1,1
 pictslayer spear,0,0,1
+polished granite pin,1,0,0
 pound of flesh,1,1,1
 remorseless,1,1,1
 ring of granite enhancement,0,1,1
