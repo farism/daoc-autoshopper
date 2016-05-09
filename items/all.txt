@@ -83,6 +83,7 @@ lightning etched mail gloves,1,0,0
 lustrous demonic spear,0,0,1
 mace of the breeze,1,0,0
 master level,2,1,2
+merchant's medal of honor,3,3,3
 mercurial bracer,1,1,1
 mercurial ring,1,1,1
 mighty belt of the vigilant,1,1,1
