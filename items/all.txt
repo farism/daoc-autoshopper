@@ -31,6 +31,7 @@ cathbadh,0,1,0
 corrupted silksteel labyrinth boots,1,0,0
 curative sash of the vigilant,1,1,2
 cursed crypt bracer,1,0,0
+defender of scorched dreams,1,0,0
 demon queen blood ring,1,1,2
 doppelganger arcane mace,1,1,2
 doppelganger arcane myth,1,1,2
@@ -65,6 +66,7 @@ greater focal mythirian,1,1,2
 greater mythirian of health,1,1,2
 greater mythirian of power,1,2,2
 hallowed,4,0,0
+harvest medal of honor,1,1,1
 indy skull piercer,1,1,0
 infernal lamellar,1,0,0
 infernal leather,1,0,0
@@ -121,6 +123,7 @@ ring of granite shard,0,2,2
 ring of tarka'oz,0,1,0
 ring of the azure,0,1,0
 ring of the heavens,1,1,1
+ring of the twilight,1,1,1
 ring of the vaettir,0,0,1
 runed saga etched,0,0,1
 samhain,0,3,0
