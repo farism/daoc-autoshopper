@@ -16,6 +16,7 @@ astral vest of purification,1,1,1
 astral voltaic war pick,1,0,0
 band of clandestinity,1,1,1
 band of shadow,1,1,1
+basalt buckler,2,2,2
 belt of heavenly,1,1,1
 blackened wrap,1,1,1
 blade illusions,2,2,0
@@ -25,6 +26,7 @@ bracelet of springtime folly,3,3,3
 bracer of heavenly bodies,1,1,1
 bracer of snow,1,1,2
 bracer of the fomor,0,1,0
+brimstone shield,2,2,2
 cache of reforming energy,1,1,2
 carved red spinel,0,1,0
 cathbadh,0,1,0
