@@ -31,6 +31,7 @@ cache of reforming energy,1,1,2
 carved red spinel,0,1,0
 cathbadh,0,1,0
 corrupted silksteel labyrinth boots,1,0,0
+cudgel of the undead,2,2,2
 curative sash of the vigilant,1,1,2
 cursed crypt bracer,1,0,0
 defender of scorched dreams,1,0,0
