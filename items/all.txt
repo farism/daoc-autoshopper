@@ -112,6 +112,7 @@ pearlescent pendant,1,1,1
 pictslayer blade,0,0,2
 pictslayer blade,2,2,0
 pictslayer buckler,1,1,1
+pictslayer claw greave,0,0,1
 pictslayer dirge,2,1,0
 pictslayer left axe,0,0,2
 pictslayer moon fang,0,0,1
