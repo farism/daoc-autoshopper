@@ -68,6 +68,7 @@ glass,5,5,5
 greater focal mythirian,1,1,2
 greater mythirian of health,1,1,2
 greater mythirian of power,1,2,2
+greater scathing mythirian,1,1,1
 hallowed,4,0,0
 harvest medal of honor,1,1,1
 indy skull piercer,1,1,0
