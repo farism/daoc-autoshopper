@@ -86,6 +86,7 @@ legerdemain,3,3,3
 leviathan ring of defiance,1,1,1
 lich tooth,1,1,1
 lightning etched mail gloves,1,0,0
+lustrous demonic scythe,0,0,1
 lustrous demonic spear,0,0,1
 mace of the breeze,1,0,0
 master level,2,1,2
