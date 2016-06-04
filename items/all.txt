@@ -57,6 +57,8 @@ ensorcelled mystic,1,1,1
 eous,1,0,0
 essence of omni,2,2,2
 essence of tenacity,2,2,2
+exeregum,5,5,5
+exerpise,5,5,5
 feallan,0,0,4
 furtive myth,1,1,1
 galladoria root,0,2,0
